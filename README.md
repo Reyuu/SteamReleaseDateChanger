@@ -5,5 +5,8 @@ This is a simple userscript to change the date format on Steam store page from `
 * Tampermonkey
 
 # How to install
+You can click [here](https://github.com/Reyuu/SteamReleaseDateChanger/raw/main/SteamReleaseDateChanger.user.js) to install the script.
+
+If that doesn't work:
 Download the raw version of the `SteamReleaseDateChanger.user.js` file.
 Drag and drop to Tampermonkey.
