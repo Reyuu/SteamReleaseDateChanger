@@ -1,18 +1,20 @@
 // ==UserScript==
 // @name         Steam release date changer
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  No tears, only happy
 // @author       Rey
 // @match        https://store.steampowered.com/app/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // @require      https://cdnjs.cloudflare.com/ajax/libs/luxon/3.3.0/luxon.min.js
-// @run-at document-idle
+// @updateURL    https://github.com/Reyuu/SteamReleaseDateChanger/raw/main/SteamReleaseDateChanger.user.js
+// @downloadURL  https://github.com/Reyuu/SteamReleaseDateChanger/raw/main/SteamReleaseDateChanger.user.js
+// @run-at       document-idle
 // ==/UserScript==
 
 const INPUT_DATE_FORMAT = "d LLL, yyyy";
-const OUTPUT_DATE_FORMAT = "yyyy-MM-dd";
+const OUTPUT_DATE_FORMAT = "yyyy-MM-dd"
 
 function main(){
     var DateTime = luxon.DateTime;
